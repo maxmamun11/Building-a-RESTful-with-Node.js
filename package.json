@@ -1,19 +1,22 @@
 {
-  "name": "rest-shop",
+  "name": "restfulapi",
   "version": "1.0.0",
   "description": "",
-  "main": "\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DA Node.js RESTful API Tutorial Project ( Build a simple shop API)",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Abdullah Al Mamun",
+  "author": "DevMamun",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.28",
-    "morgan": "^1.10.0"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
